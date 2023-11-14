@@ -1,0 +1,47 @@
+.hero-background {
+  background-image: url(./assets/hero-image.png);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.bg-bluesky {
+  background-image: url(./assets/bg-bluesky.png);
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #778f9c;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.bg2-blusky {
+  background-color: #bdd2de;
+}
+
+.our-values {
+  background-image: url(./assets/blubs3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+.our-teams {
+  margin-bottom: 100px;
+}
+
+.card {
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.font-yesevaone {
+  font-family: 'Yeseva One', serif;
+}
+.font-sen {
+  font-family: 'Sen', sans-serif;
+}
