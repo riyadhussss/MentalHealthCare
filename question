@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>question</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <style>
+      .hero-background {
+        background-image: url(./assets/hero.png);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+      }
+
+      .bg-bluesky {
+        background-image: url(./assets/bg-bluesky.png);
+        background-size: contain;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+      }
+
+      .footer {
+        background-color: #778f9c;
+        padding: 50px 0;
+        color: #fff;
+      }
+
+      .bg2-blusky {
+        background-color: #bdd2de;
+      }
+
+      .our-values {
+        background-image: url(./assets/blubs3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 525px;
+      }
+
+      .our-teams {
+        margin-bottom: 100px;
+      }
+
+      .card {
+        transition: 0.3s;
+      }
+      .card:hover {
+        transform: scale(1.1);
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="transition: 0.3s">
+      <div class="container">
+        <a class="navbar-brand" style="color: #28363e" href="#"><strong>MentalHealthCare</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">About us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="vh-100 hero-background">
+      <div class="h-100 row container mx-auto">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h6 class="text-center">Apakah ketika sedang berbicara sering melantur atau tidak sesuai topik pembicaraan ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah memiliki suatu peristiwa yang traumatis ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah merasa gugup dan gelisah ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah sering berhalusinasi ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Anak berperilaku impulsif dan hiperaktif ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah anak kesulitan dalam berkomunikasi ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah anak memiliki penyimpangan pada ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Apakah anak memiliki gangguan saat bersosialisasi?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Jika disuruh diam akan gelisah, karena anak selalu ingin bergerak </h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+            <h6 class="text-center">Kehilangan minat terhadap sesuatu yang disukainya ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Ketika ditanyai tentang suatu tempat atau peristiwa malah mengelak ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Merasakan kesenangan yang berlebihan dengan apa yang dikerjakannya ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Mudah tersinggung ketika diberikan masukan terhadap apa yang dikerjakan ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Perubahan yang sangat drastis karena mengingat traumanya ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Sering berbohong bahkan mengeksploitasi orang lain ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Susah tidur atau insomnia ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Tidak adanya rasa bersalah ketika membuat kesalahan ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Tidak bertanggung jawab atas kesalahannya atau menyalahkan orang lain ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Tidak bertanggung jawab atas kesalahannya atau menyalahkan orang lain ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Tidak mampu menahan dorong atas perilaku tertentu ?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+          <h6 class="text-center">Tidak percaya diri di lingkungan sekitar?</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-dark"  type="button">Ya</button>
+            <button class="btn btn-primary" type="button">Tidak</button>
+          </div>
+           
+      </div>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      window.onscroll = (e) => {
+        if (window.scrollY > 100) {
+          document.getElementById('navbar').classList.add('bg-white', 'shadow-sm');
+        } else {
+          document.getElementById('navbar').classList.remove('bg-white', 'shadow-sm');
+        }
+      };
+    </script>
+  </body>
+</html>
