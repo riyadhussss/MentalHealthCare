@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>output</title>
+    <title>question</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <style>
@@ -13,6 +13,7 @@
         background-position: 0 0;
         background-repeat: no-repeat;
       }
+
       .bg-bluesky {
         background-image: url(./assets/bg-bluesky.png);
         background-size: contain;
@@ -20,18 +21,6 @@
         background-repeat: no-repeat;
       }
 
-      .footer {
-        background-image: url(./assets/footer.png);
-        background-size: contain;
-        background-position: 0 0;
-        background-repeat: no-repeat;
-      }
-      .blubs {
-        background-image: url(./assets/blubs.png);
-        background-size: contain;
-        background-position: 0 0;
-        background-repeat: no-repeat;
-      }
       .footer {
         background-color: #778f9c;
         padding: 50px 0;
@@ -59,6 +48,7 @@
       .card:hover {
         transform: scale(1.1);
       }
+      
     </style>
   </head>
 
@@ -84,98 +74,21 @@
     <!-- jumbotron -->
     <section class="vh-100 hero-background">
       <div class="h-100 row container mx-auto">
-        <div class="col-7 d-flex flex-column align-items-start justify-content-center h-100">
-          <h1 class="display-4 fw-bold">
-            Tes Diagnosa <br />
-            Penyakit Mental <br />Pada Anak
-          </h1>
-          <hr class="w-25" />
-          <p class="fw-medium">Tes ini dapat mengukur kesehatan mental baik atau buruk terhadap anak. Hasil dari tes ini akan membantu Anda untuk mengetahui kesehatan mental Anak Anda saat ini.</p>
-        </div>
-        <div class="col-5 h-100 d-flex flex-column justify-content-end">
-          <img src="assets/gambar2.png" alt="hero Image" width="100%" />
-        </div>
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h6 class="text-center">Apakah ketika sedang berbicara sering melantur atau tidak sesuai topik pembicaraan ?</h6>
       </div>
     </section>
     <!-- akhir jumbotron -->
 
-    <!-- body page -->
-    <section class=" row vh-100 mt-3 bg-bluesky" id="hasil">
-      <div class="container">
-        <div class="row text-center mt-5">
-          <div class="col">
-            <h2 class="fs-3">Hasil</h2>
-              <p class="fw-normal">
-                Kondisi buah hati anda mengalami anxiety disorder 
-              </p>
-              <div class="row justify-content-center text-center mt-3">
-                <div class="col-6"></div>
-          </div>
-      </div>
-      </div>
-        <div  id="solusi">
-          <div class="text-center mt-5 mb-5">
-            <div class="col">
-              <h2 class="fs-3">Solusi</h2>
-
-              <div class="row justify-content-center text-center mt-3">
-                <div class="col-6"></div>
-
-        <p class="fw-normal">
-          Solusi untuk mengatasi gangguan kecemasan pada anak yaitu dengan cara berolahraga, hipnosis, dan terapi Cognitive Behavioral Therapy atau  CBT. Terapi CBT ini sendiri dinilai sebagai solusi yang cukup efektif untuk mengatasi gangguan kecemasan yang berlebihan. Untuk penanganan lebih lanjut dapat melakukan konsultasi dengan psikolog atau psikiater.
-        </p>
-      </div>
-    </section>
-  <!-- akhir -->
-
-  <!-- soluis -->
-<section class="container" id="solusii">
-  <div class="text-center">
-    <div class="row">
-      <h2>Solusi</h2>
-    </div>
-
-  </div>
-
-</section>
-<!-- akhir solusi -->
-
-  <!-- footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="wrapper-col-1">
-            <h2 class="fw-bold">MentalHealthCare</h2>
-            <p>Find us</p>
-            <img src="assets/mdi_linkedin.png" alt="mdi_linkedin" />
-            <img src="assets/mdi_email.png" alt="mdi_email" />
-            <img src="assets/ri_instagram-fill.png" alt="ri_instagram-fill" />
-            <img src="assets/uil_facebook.png" alt="uil_facebook" />
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h4>Email</h4>
-          <p>MentalHealthCare@gmail.com</p>
-          <h5>Customer service</h5>
-          <p>
-            0852-5252-5252 <br />
-            0823-2323-2323
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <script>
-    window.onscroll = (e) => {
-      if (window.scrollY > 100) {
-        document.getElementById('navbar').classList.add('bg-white', 'shadow-sm');
-      } else {
-        document.getElementById('navbar').classList.remove('bg-white', 'shadow-sm');
-      }
-    };
-  </script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      window.onscroll = (e) => {
+        if (window.scrollY > 100) {
+          document.getElementById('navbar').classList.add('bg-white', 'shadow-sm');
+        } else {
+          document.getElementById('navbar').classList.remove('bg-white', 'shadow-sm');
+        }
+      };
+    </script>
+  </body>
 </html>
