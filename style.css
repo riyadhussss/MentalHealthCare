@@ -1,12 +1,12 @@
 .hero-background {
-  background-image: url(./assets/hero-image.png);
+  background-image: url(../../assets/hero-image.png);
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
 
 .bg-bluesky {
-  background-image: url(./assets/bg-bluesky.png);
+  background-image: url(../../assets/bg-bluesky.png);
   background-size: contain;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -23,19 +23,24 @@
 }
 
 .our-values {
-  background-image: url(./assets/blubs3.png);
+  background-image: url(../../assets/blubs3.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 525px;
 }
 
 .our-teams {
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
 .card {
   transition: 0.3s;
+  height: 2vh;
+  /* font-size: 15px; */
+  font-size: small;
+  /* width: 1px; */
 }
+
 .card:hover {
   transform: scale(1.1);
 }
@@ -44,4 +49,28 @@
 }
 .font-sen {
   font-family: 'Sen', sans-serif;
+}
+.manfaat {
+  background-image: url(../../assets/blubs3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.btn {
+  background-color: #2c3941;
+  border: none;
+  color: #fff;
+}
+.btn1 {
+  background-color: #778f9c;
+  border: none;
+  border-radius: 10px;
+}
+.btn1:hover {
+  background-color: #8F9FA8;
+}
+
+.btn:hover {
+  background-color: #778f9c;
+  color: #fff;
 }
